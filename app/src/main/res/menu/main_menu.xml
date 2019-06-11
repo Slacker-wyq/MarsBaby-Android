@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main_home"
+        android:icon="@drawable/homefill"
+        android:title="@string/main" />
+
+    <item
+        android:id="@+id/main_discover"
+        android:icon="@drawable/discoverfill"
+        android:title="@string/discover" />
+       <item
+        android:id="@+id/main_time"
+        android:icon="@drawable/timefill"
+        android:title="@string/time" />
+       <item
+        android:id="@+id/main_message"
+        android:icon="@drawable/messagefill"
+        android:title="@string/message" />
+       <item
+        android:id="@+id/main_people"
+        android:icon="@drawable/peoplefill"
+        android:title="@string/people" />
+
+
+</menu>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/u_pic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ic_empty_zhihu" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/forum_name"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="小名同学" />
+
+            <TextView
+                android:id="@+id/forum_renzhen"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:text="普通用户"
+                android:textColor="#66ccff"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/forumn_guanzhu"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="@dimen/dp_10"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="关注"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/forum_zf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dp_10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="转自:"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/zf_forum_name"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text="小名同学"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/zf_forum_renzhen"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:text="普通用户"
+                android:textColor="#66ccff"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/forum_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:minHeight="50dp"
+            android:text="宝宝今天很开心!" />
+
+        <ImageView
+            android:id="@+id/forum_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_empty_zhihu" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/forum_pinglun"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:text="评论"
+                android:drawableLeft="@drawable/pinglun"
+                />
+            <TextView
+                android:id="@+id/forum_zhuanfa"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text="转发"
+                android:drawableLeft="@drawable/zhuanfa"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

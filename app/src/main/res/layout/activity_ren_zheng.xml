@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.RenZhengActivity">
+
+    <com.vondear.rxtools.view.RxTitle
+        android:id="@+id/rx_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true"
+        app:title="认证申请" />
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        android:src="@drawable/ic_empty_zhihu" />
+
+    <EditText
+        android:id="@+id/add_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="真实姓名"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/add_idcard"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="身份证"
+        android:textSize="14sp" />
+    <EditText
+        android:id="@+id/add_number"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="证书编号"
+        android:textSize="14sp" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/register_submit_bt"
+        android:layout_width="250dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_login_selector"
+        android:gravity="center"
+        android:text="申请"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</LinearLayout>

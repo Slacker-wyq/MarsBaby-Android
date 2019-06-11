@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">火星宝宝</string>
+    <string name="main">首页</string>
+    <string name="discover">论坛</string>
+    <string name="time">预约</string>
+    <string name="message">消息</string>
+    <string name="people">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="test">
+        <item>宝宝one</item>
+        <item>宝宝two</item>
+        <item>宝宝three</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>护理预约</item>
+        <item>课外学习</item>
+        <item>早教课堂</item>
+    </string-array>
+    <string-array name="huli">
+        <item>理发</item>
+        <item>洗澡</item>
+        <item>体操</item>
+    </string-array>
+
+    <string-array name="kewai">
+        <item>数学</item>
+        <item>英语</item>
+        <item>语文</item>
+    </string-array>
+
+    <string-array name="zaojiao">
+        <item>启蒙</item>
+        <item>启智</item>
+        <item>体能</item>
+    </string-array>
+</resources>
